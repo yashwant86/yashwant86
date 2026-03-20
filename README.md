@@ -1,16 +1,16 @@
-## Hi there 👋
+### Hey, I'm Yashwant
 
-<!--
-**yashwant86/yashwant86** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+CS student at HS RheinMain in Wiesbaden, Germany.
 
-Here are some ideas to get you started:
+I'm building [MergeMonkey](https://mergemonkey.dev), a code reviewer for pull requests. Not purely static analysis, not just an LLM eyeballing the diff.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+The output looks like: "userId comes in from req.params.id at line 38, passes through formatUser() with no sanitization, reaches db.query at line 42" - rather than "this looks like SQL injection."
+
+How it works:
+- Two-pass review: fast lint pass (catches obvious stuff) + deep agent investigation (traces data flows, finds security issues)
+- Bring your own model via OpenRouter, no lock-in to one provider
+- Supports GitHub and GitLab (including self-hosted)
+
+What I care about: security, code quality, flexibility and making code review less painful for maintainers drowning in PRs.
+
+[mergemonkey.dev](https://mergemonkey.dev) | [linkedin.com/in/yashwantphogat](https://linkedin.com/in/yashwantphogat)
