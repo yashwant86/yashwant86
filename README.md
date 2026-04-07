@@ -12,6 +12,7 @@ How it works:
 - Supports GitHub and GitLab (including self-hosted)
 
 What I care about: security, code quality, flexibility and making code review less painful for maintainers drowning in PRs.
+
 Scored 4th on Martian's code review bench [(discord thread)](https://discord.com/channels/1449120660877086824/1488625292518887464/1490291820708761765) - result pending public listing while I build more online presence.
 
 [mergemonkey.dev](https://mergemonkey.dev) | [linkedin.com/in/yashwantphogat](https://linkedin.com/in/yashwantphogat)
